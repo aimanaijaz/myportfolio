@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Portfolio </title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+ </head>
+ <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-6">
+  				<img class=" img-responsive title-logo" src="images/udacity-logo.jpg" alt="Udacity Logo">
+  			</div>
+  			<div class="col-md-6 text-right text-uppercase" >
+  				<h1 class="title-super"> Aiman Aijaz </h1>
+  				<h4 class="subtitle"> Web Developer </h4>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="col-md-12">
+  				<hr>
+  			</div>
+  		</div>
+      <div class ="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="images/Picture3.jpg" alt= "Main image">
+        </div>
+      </div>
+  		<div class="container" data-bind="foreach: projectsInRows">
+      <div class="row text-center space-below space-above">
+        <div data-bind="foreach: {data: content, as: 'project'}">
+          <div data-bind="css: colName">
+            <h3 data-bind="text: projectname"></h3>
+            <div class="project">
+              <img class="img-responsive center-block" alt="Project Image" data-toggle="modal" data-target="#project1" data-bind="attr: {src: project.projectimage, 'data-target': project.idWithHash}, click: visitProject.bind(project)">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Modal -->
+  <div data-bind="with: selectedProject">
+    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-bind="attr: {id: selectedProject().id}">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center text-uppercase" id="myModalLabel" data-bind="text: projectname"></h3>
+          </div>
+          <div class="modal-body text-center">
+            <img class="img-responsive modal-img" alt="Project Image" data-bind="attr: {src: projectimage}">
+            <a target="_blank" data-bind="attr: {href: projectlink}">
+              <button>View Project</button>
+            </a>
+            <a target="_blank" data-bind="attr: {href: projectgithublink}">
+              <button>View GitHub</button>
+            </a>
+          </div>
+          <div class="modal-footer">
+            <p class="pro-desc" data-bind="html: projectdescription"></p>
+            <button data-dismiss="modal"> Close </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/knockout.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
+
+
