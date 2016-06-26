@@ -83,7 +83,7 @@ function appViewModel() {
             projectname: 'Classic Arcade game clone',
             projectimage: 'images/frogger.png',
             projectdescription:"Developed a basic Frogger game using object oriented programming concepts  " ,
-            projectlink: 'http://aimanaijaz.github.io/frogger-game/',
+            projectlink: 'http://aimanaijaz.github.io/frogger/',
             projectgithublink: 'https://github.com/aimanaijaz/frogger-game'
         },
         {
