@@ -55,7 +55,7 @@ function appViewModel() {
             "to store a list of my favorite movies."+
             "This data was then served as webpage " +
             "to allow users to watch movie trailers." ,
-            projectlink: 'https://github.com/aimanaijaz/movietrailers',
+            projectlink: 'http://aimanaijaz.github.io/movietrailers/',
             projectgithublink: 'https://github.com/aimanaijaz/movietrailers'  
         },
         {
