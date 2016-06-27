@@ -65,7 +65,7 @@ function appViewModel() {
             "Employees can be added and their details can be edited and deleted. " +
             "I have successfully implemented a local permission system as well as oauth2 (third party authentication)." +   
             "We implement oauth2 using google plus here!" ,  
-            projectlink: 'https://github.com/aimanaijaz/Itemcatalog',
+            projectlink: 'https://enigmatic-garden-20440.herokuapp.com/',
             projectgithublink: 'https://github.com/aimanaijaz/Itemcatalog'     
         },
         {
