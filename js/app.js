@@ -29,13 +29,13 @@ function appViewModel() {
     self.projects = [
         {
             projectname: 'Multiuser Blog',
-            projectimage: 'images/multiuserblog.png',
+            projectimage: 'images/muserblog.png',
             projectdescription: "In this project I created a multi user blog.  " +
             "Users can sign in and post blog posts as well as like and comment on other posts made on the blog.  " +
             "I also created an authentication system where users are able to register, sign in and then create blog posts. " +
             "This blog is hosted on Google App Engine",
             projectlink: 'http://nanodegree-blog.appspot.com/',
-            projectgithublink: 'https://github.com/aimanaijaz/blogwithauth'
+            projectgithublink: 'https://github.com/aimanaijaz/multiuserblog'
         },
         {
             projectname: 'Neighborhood Map',
