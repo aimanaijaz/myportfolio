@@ -44,8 +44,8 @@ function appViewModel() {
             "It shows all the malls in long island on a full page google map.  " +
             "Users can view info about the malls by clicking on them. " +
             "This info is retrieved by making AJAX calls to wikipedia API",
-            projectlink: 'http://aimanaijaz.github.io/P5MapV3/',
-            projectgithublink: 'https://github.com/aimanaijaz/P5MapV3'
+            projectlink: 'http://aimanaijaz.github.io/neighborhoodmap/',
+            projectgithublink: 'https://github.com/aimanaijaz/neighborhoodmap'
             
         },
         {
