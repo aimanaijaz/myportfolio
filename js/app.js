@@ -28,16 +28,6 @@ function appViewModel() {
 
     self.projects = [
         {
-            projectname: 'Multiuser Blog',
-            projectimage: 'images/muserblog.png',
-            projectdescription: "In this project I created a multi user blog.  " +
-            "Users can sign in and post blog posts as well as like and comment on other posts made on the blog.  " +
-            "I also created an authentication system where users are able to register, sign in and then create blog posts. " +
-            "This blog is hosted on Google App Engine",
-            projectlink: 'http://nanodegree-blog.appspot.com/',
-            projectgithublink: 'https://github.com/aimanaijaz/multiuserblog'
-        },
-        {
             projectname: 'Neighborhood Map',
             projectimage: 'images/neighborhoodmap.png',
             projectdescription: "Neighborhood map uses knockout.js.  " +
@@ -57,6 +47,13 @@ function appViewModel() {
             "to allow users to watch movie trailers." ,
             projectlink: 'http://aimanaijaz.github.io/movietrailers/',
             projectgithublink: 'https://github.com/aimanaijaz/movietrailers'  
+        },
+        {
+            projectname: 'Classic Arcade game clone',
+            projectimage: 'images/frogger.png',
+            projectdescription:"Developed a basic Frogger game using object oriented programming concepts  " ,
+            projectlink: 'http://aimanaijaz.github.io/frogger-game/',
+            projectgithublink: 'https://github.com/aimanaijaz/frogger-game'
         },
         {
             projectname: 'Item Catalog',
@@ -80,11 +77,14 @@ function appViewModel() {
             projectgithublink: 'https://github.com/aimanaijaz/webperformance/tree/master/Optimization'
         },
         {
-            projectname: 'Classic Arcade game clone',
-            projectimage: 'images/frogger.png',
-            projectdescription:"Developed a basic Frogger game using object oriented programming concepts  " ,
-            projectlink: 'http://aimanaijaz.github.io/frogger-game/',
-            projectgithublink: 'https://github.com/aimanaijaz/frogger-game'
+            projectname: 'Multiuser Blog',
+            projectimage: 'images/muserblog.png',
+            projectdescription: "In this project I created a multi user blog.  " +
+            "Users can sign in and post blog posts as well as like and comment on other posts made on the blog.  " +
+            "I also created an authentication system where users are able to register, sign in and then create blog posts. " +
+            "This blog is hosted on Google App Engine",
+            projectlink: 'http://nanodegree-blog.appspot.com/',
+            projectgithublink: 'https://github.com/aimanaijaz/multiuserblog'
         },
         {
             projectname: 'Resume',
